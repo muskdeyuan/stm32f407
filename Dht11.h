@@ -1,4 +1,6 @@
 #include "stm32f4xx.h"                  // Device header
 
-void cap_init(void);
+void Dht11_Init(void);
+
+void Dht11_Run(void);
 

@@ -1,4 +1,7 @@
 #include "stm32f4xx.h"                  // Device header
 
-void cap_init(void);
+void ADC_Light_Init(void);
+
+void Light_GetData(void);
+
 

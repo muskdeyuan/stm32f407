@@ -74,7 +74,7 @@ static uint32_t flag = 0;
 static uint32_t val = 0;
 static uint32_t cir = 0;
 //中断服务子函数
-static uint32_t stat= 0;
+//static uint32_t stat= 0;
 void TIM5_IRQHandler()
 {
 	if(TIM_GetITStatus(TIM5,TIM_IT_CC1))//通道1电平变化
